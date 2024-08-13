@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+    .list {
+        gap: 25px;
+    }
+    .header__icons {
+        gap: 25px;
+    }
+    /* Footer section */
+    .footer__list-item {
+        margin-bottom: 20px;
+    }
+    .footer__list-link {
+        font-size: 16px;
+    }
+    .form-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .form-input {
+        width: 300px;
+        margin-bottom: 20px;
+        & input {
+            font-size: 16px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        & button {
+            padding: 20px 25px;
+        }
+    }
+    .social-icons {
+        gap: 15px;
+    }
+    .payment-card {
+        width: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 320px) {
+}

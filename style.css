@@ -20,6 +20,7 @@ img {
 
 .wrapper {
     max-width: 1200px;
+    width: calc(100% - 60px);
     margin: 0 auto;
 }
 
@@ -52,17 +53,17 @@ img {
     color: white;
 }
 
+/* header */
 header {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 17px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    & .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .list {
     display: flex;
+    align-self: flex-end;
     gap: 50px;
     list-style-type: none;
     width: fit-content;
@@ -92,6 +93,8 @@ header {
     display: flex;
     align-items: center;
     gap: 50px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 .icon {
     font-size: 24px;
