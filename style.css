@@ -53,6 +53,9 @@ img {
     background-color: black;
     color: white;
 }
+.btn-view {
+    display: none;
+}
 
 /* header */
 header {
@@ -338,7 +341,6 @@ header {
     background-position: center;
     padding-top: 130px;
     padding-bottom: 130px;
-
     margin-bottom: 180px;
 }
 .single__title {
@@ -358,6 +360,9 @@ header {
 /* Variety section */
 .variety {
     margin-bottom: 100px;
+}
+.variety__title {
+    display: none;
 }
 .variety__wrapper {
     display: flex;
